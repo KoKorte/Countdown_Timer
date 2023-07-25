@@ -37,7 +37,7 @@ function updateTimer() {
 
 function startTimer() {
   if (!targetDate) {
-    return; // Do nothing if the target date is not set
+    return;
   }
 
   updateTimer();
@@ -59,9 +59,8 @@ function resetTimer() {
 function setDate() {
   const dateString = targetDateInput.value;
   targetDate = new Date(dateString).getTime();
-  targetDateInput.value = ''; // Reset the date input after setting the target date
+  targetDateInput.value = ''; 
 
-  // Update the selectedDateElement to display the chosen date
   const formattedDate = new Date(dateString).toLocaleDateString('fi-FI');
   selectedDateElement.textContent = `Valittu päivämäärä: ${formattedDate}`;
 }
