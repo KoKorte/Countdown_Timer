@@ -17,7 +17,7 @@ Yksinkertainen verkkosivu, joka näyttää päivämäärän mukaan laskevan ajas
 ## Asennus ja käyttö
 
 1. Lataa tai kloonaa projekti GitHubista.
-2. Avaa index.html-tiedosto selaimessa.
+2. Avaa `countdown_timer.html`-tiedosto selaimessa.
 3. Aseta haluamasi määräpäivä ja klikkaa "Set Date" -painiketta.
 4. Käynnistä ajastin "Start Timer" -painikkeesta.
 5. Pysäytä tai nollaa ajastin tarvittaessa "Stop" tai "Reset" -painikkeilla.
@@ -46,7 +46,7 @@ A simple web page that displays a countdown timer based on a specified date. Use
 ## Installation and Usage
 
 1. Download or clone the project from GitHub.
-2. Open the `index.html` file in your web browser.
+2. Open the `countdown_timer.html` file in your web browser.
 3. Set your desired target date and click the "Set Date" button.
 4. Start the timer by clicking the "Start Timer" button.
 5. Stop or reset the timer as needed using the "Stop" or "Reset" buttons.
