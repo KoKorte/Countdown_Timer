@@ -3,8 +3,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: black; /* Change the background color to black */
-  color: orange; /* Change the text color to orange */
+  background-color: black; 
+  color: orange; 
   font-family: "Fantasy", "Roboto", Arial, sans-serif;
   font-size: 48px !important;
   margin: 0;
