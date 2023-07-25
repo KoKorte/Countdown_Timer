@@ -1,36 +1,5 @@
 # Countdown Timer
 
-FI
-
-Yksinkertainen verkkosivu, joka näyttää päivämäärän mukaan laskevan ajastimen. Käyttäjä voi asettaa määräpäivän, ja ajastin laskee automaattisesti päivät, tunnit, minuutit ja sekunnit kyseiseen päivämäärään asti.
-
-## Ominaisuudet
-
-- Mahdollisuus asettaa määräpäivä.
-- Ajastin laskee automaattisesti päivät, tunnit, minuutit ja sekunnit määräpäivään asti.
-- Käyttäjäystävälliset painikkeet ajastimen käynnistämiseen, pysäyttämiseen ja nollaamiseen.
-
-## Teknologiat
-
-- HTML, CSS ja JavaScript.
-
-## Asennus ja käyttö
-
-1. Lataa tai kloonaa projekti GitHubista.
-2. Avaa `countdown_timer.html`-tiedosto selaimessa.
-3. Aseta haluamasi määräpäivä ja klikkaa "Set Date" -painiketta.
-4. Käynnistä ajastin "Start Timer" -painikkeesta.
-5. Pysäytä tai nollaa ajastin tarvittaessa "Stop" tai "Reset" -painikkeilla.
-
-## Lisenssi
-
-Tämä projekti on lisensoitu MIT-lisenssillä. Voit vapaasti käyttää, muokata ja jakaa tätä koodia omiin projekteihisi.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Countdown Timer
-
-ENG
-
 A simple web page that displays a countdown timer based on a specified date. Users can set a target date, and the timer will automatically count down the days, hours, minutes, and seconds until that date is reached.
 
 ## Features
