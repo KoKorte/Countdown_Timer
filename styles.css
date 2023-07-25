@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black; /* Change the background color to black */
+  color: orange; /* Change the text color to orange */
+  font-family: "Fantasy", "Roboto", Arial, sans-serif;
+  font-size: 48px !important;
+  margin: 0;
+}
+
+.timer {
+  text-align: center;
+}
+
+.countdown {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.date-input {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 24px;
+}
+
+input[type="date"] {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}

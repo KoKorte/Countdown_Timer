@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="timer">
+    <div class="date-input">
+      <label for="targetDate">Target Date:</label>
+      <input type="date" id="targetDate">
+      <button id="setDate">Set Date</button>
+      <p id="selectedDate">Valittu päivämäärä: </p>
+    </div>
+    <div class="countdown">
+      <span id="days">00</span> days
+      <span id="hours">00</span> hours
+      <span id="minutes">00</span> minutes
+      <span id="seconds">00</span> seconds
+    </div>
+    <div class="buttons">
+      <button id="start">Start Timer</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
